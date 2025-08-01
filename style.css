@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  background: #1A1A2E;
+  overflow: hidden;
+  font-family: 'Arial', sans-serif;
+  color: #FFD700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#smokeCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.controls {
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+}
+
+button {
+  background: #FFD700;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #1A1A2E;
+}

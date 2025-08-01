@@ -1,0 +1,20 @@
+#smokeCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: -1;
+}
+body {
+    margin: 0;
+    background: #1A1A2E;
+    overflow: hidden;
+}
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+}
